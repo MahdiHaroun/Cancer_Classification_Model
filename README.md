@@ -140,6 +140,13 @@ jupyter notebook [Model_Type]/Model.ipynb  # where Model_Type is one of: Logisti
 
 Each model's performance is evaluated on both training and testing datasets to compare accuracy, precision, recall, and F1-scores. The evaluation helps determine the best model for cancer classification based on these metrics.
 
+Key performance highlights:
+
+- **KNN** achieved the highest performance with 98% accuracy and 100% precision without balancing the dataset, and maintained 98% accuracy with 98% precision after balancing using SMOTE
+- **AdaBoost** performed strongly with 97% accuracy and 97% precision
+- **XGBoost** delivered robust results with 97% accuracy and 95% precision
+- Other models showed varying performance levels across metrics, with ensemble methods generally outperforming individual classifiers
+
 ## Best Practices Used
 
 - Cross-validation for robust model evaluation
